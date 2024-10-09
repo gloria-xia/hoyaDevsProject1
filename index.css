@@ -1,0 +1,72 @@
+* {
+  font-family: "Index", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-container h1 {
+  font-size: 60px;
+}
+
+.main-container p {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 70%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px
+}
+
+.buttons button {
+  padding: 10px;
+  margin-right: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: 5px;
+}
+
+#github {
+  background-color:#4384D1;
+  border-radius: 3px;
+  border-color: #4384D1;
+  color: white;
+}
+
+#linkedin {
+  background-color: white;
+  border-radius: 3px;
+  border-color: #4384D1;
+  color: #4384D1;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  align-items: center;
+}
+
+.right img {
+  width: 400px;
+}
